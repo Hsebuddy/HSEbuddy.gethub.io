@@ -61,52 +61,85 @@
                 </button>
                 
                 <div id="docs-menu" class="dropdown-menu absolute hidden right-0 mt-3 w-72 md:w-96 bg-white shadow-2xl z-50 border-t-4 border-[#0b2e24] max-h-[75vh] overflow-y-auto custom-scroll rounded-b-lg">
-                    <div class="border-b">
-                        <button onclick="toggleAccordion(event, 'check-list')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
-                            📂 Yoxlama Vərəqləri <span>+</span>
-                        </button>
-                        <div id="check-list" class="category-content bg-white">
-                            <a href="01_avtobus.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 01. Avtobus</a>
-                            <a href="02_yukleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 02. Ön Yükləyici</a>
-                            <a href="03_sumasini.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 03. Su Maşını</a>
-                            <a href="04_manipulyator.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 04. Manipulyator</a>
-                            <a href="05_avtomobil.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 05. Avtomobil</a>
-                            <a href="06_avtosebet.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 06. Avtosəbət</a>
-                            <a href="07_trailer.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 07. Qoşqulu Trailer</a>
-                            <a href="08_kipleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 08. Kipləyici</a>
-                            <a href="09_qreyder.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 09. Qreyder</a>
-                            <a href="10_avtoyukleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 10. Avtoyükləyici</a>
-                            <a href="11_ekskavator.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 11. Ekskavator</a>
-                            <a href="12_yukmasini.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 12. Yük Maşını</a>
-                            <a href="13_beton_token.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 13. Beton Tökən</a>
-                            <a href="14_beton_qarisdiran.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 14. Beton Qarışdıran</a>
-                            <a href="15_on_arxa_yukleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 15. Ön-Arxa Yükləyici</a>
-                            <a href="16_yanacaq_doldurma.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 16. Yanacaq Doldurma</a>
-                            <a href="17_avtokran.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 17. Avtokran</a>
-                            <a href="18%20Anbar%20üçün%20yoxlama%20vərəqi.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 18. Anbar</a>
-                            <a href="19_yasayis_dusergesi.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 19. Yaşayış Düşərgəsi</a>
-                            <a href="20%20İş%20yerlərində%20ƏM%20və%20TT%20üzrə%20yoxlama%20vərəqi.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 text-[11px] font-bold italic">📥 20. ƏM və TT (İş yeri)</a>
-                        </div>
-                    </div>
-                    <div class="border-b">
-    <button onclick="toggleAccordion(event, 'transport-list')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
-        🚛 Nəqliyyat və texnikaların cədvəli <span>+</span>
+                   <div class="border-b">
+    <button onclick="toggleAccordion(event, 'policies')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
+        ⚖️ 1. Siyasətlər <span>+</span>
     </button>
-    <div id="transport-list" class="category-content bg-white">
-     <a href="neqliyyat_cedveli_2026.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 Nəqliyyat Cədvəli - 2026</a>
+    <div id="policies" class="category-content bg-white text-center py-4">
+        <span class="text-gray-400 italic text-[10px]">Tezliklə əlavə olunacaq...</span>
     </div>
 </div>
-                    <div class="border-b">
-                        <button onclick="toggleAccordion(event, 'risk-list')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
-                            ⚠️ Riskin qiymətləndirilməsi <span>+</span>
-                        </button>
-                        <div id="risk-list" class="category-content bg-white text-center py-6">
-                            <span class="text-gray-400 italic text-[10px]">Tezliklə əlavə olunacaq...</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<div class="border-b">
+    <button onclick="toggleAccordion(event, 'procedures')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
+        📋 2. Prosedurlar <span>+</span>
+    </button>
+    <div id="procedures" class="category-content bg-white text-center py-4">
+        <span class="text-gray-400 italic text-[10px]">Tezliklə əlavə olunacaq...</span>
+    </div>
+</div>
+
+<div class="border-b">
+    <button onclick="toggleAccordion(event, 'method-statements')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
+        🛠️ 3. İşin görülmə Ardıcıllığı <span>+</span>
+    </button>
+    <div id="method-statements" class="category-content bg-white text-center py-4">
+        <span class="text-gray-400 italic text-[10px]">Tezliklə əlavə olunacaq...</span>
+    </div>
+</div>
+
+<div class="border-b">
+    <button onclick="toggleAccordion(event, 'risk-list')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
+        ⚠️ 4. Riskin qiymətləndirilməsi <span>+</span>
+    </button>
+    <div id="risk-list" class="category-content bg-white text-center py-4">
+        <span class="text-gray-400 italic text-[10px]">Tezliklə əlavə olunacaq...</span>
+    </div>
+</div>
+
+<div class="border-b">
+    <button onclick="toggleAccordion(event, 'tbt-list')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
+        📢 5. İş öncəsi təlimatlar <span>+</span>
+    </button>
+    <div id="tbt-list" class="category-content bg-white text-center py-4">
+        <span class="text-gray-400 italic text-[10px]">Tezliklə əlavə olunacaq...</span>
+    </div>
+</div>
+
+<div class="border-b">
+    <button onclick="toggleAccordion(event, 'check-list')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
+        📝 6. Yoxlama vərəqləri <span>+</span>
+    </button>
+    <div id="check-list" class="category-content bg-white">
+        <a href="18%20Anbar%20üçün%20yoxlama%20vərəqi.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 18. Anbar</a>
+        <a href="19_yasayis_dusergesi.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 19. Yaşayış Düşərgəsi</a>
+        <a href="20%20İş%20yerlərində%20ƏM%20və%20TT%20üzrə%20yoxlama%20vərəqi.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 text-[11px] font-bold italic">📥 20. ƏM və TT (İş yeri)</a>
+    </div>
+</div>
+
+<div class="border-b">
+    <button onclick="toggleAccordion(event, 'transport-list')" class="w-full text-left px-4 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center text-[#0b2e24] font-black text-[12px] uppercase">
+        🚛 7. Nəqliyyat və Texnikalar <span>+</span>
+    </button>
+    <div id="transport-list" class="category-content bg-white">
+        <a href="neqliyyat_cedveli_2026.xlsx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 Nəqliyyat Cədvəli 2026</a>
+        <a href="01_avtobus.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 01. Avtobus</a>
+        <a href="02_yukleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 02. Ön Yükləyici</a>
+        <a href="03_sumasini.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 03. Su Maşını</a>
+        <a href="04_manipulyator.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 04. Manipulyator</a>
+        <a href="05_avtomobil.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 05. Avtomobil</a>
+        <a href="06_avtosebet.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 06. Avtosəbət</a>
+        <a href="07_trailer.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 07. Qoşqulu Trailer</a>
+        <a href="08_kipleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 08. Kipləyici</a>
+        <a href="09_qreyder.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 09. Qreyder</a>
+        <a href="10_avtoyukleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 10. Avtoyükləyici</a>
+        <a href="11_ekskavator.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 11. Ekskavator</a>
+        <a href="12_yukmasini.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 12. Yük Maşını</a>
+        <a href="13_beton_token.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 13. Beton Tökən</a>
+        <a href="14_beton_qarisdiran.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 14. Beton Qarışdıran</a>
+        <a href="15_on_arxa_yukleyici.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 15. Ön-Arxa Yükləyici</a>
+        <a href="16_yanacaq_doldurma.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 16. Yanacaq Doldurma</a>
+        <a href="17_avtokran.docx" download class="block px-6 py-3 text-gray-800 hover:bg-amber-50 border-b text-[11px] font-bold italic">📥 17. Avtokran</a>
     </div>
 </nav>
 
